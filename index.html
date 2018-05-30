@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    
+    <title>app9 Geolocalizacion </title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp9.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src= "js/acciones.js"></script>
+<script src="phonegap.js"></script><!-- necesario*/ -->
+   </head>
+   
+  <body>
+  <!--Principal-->
+  <div data-role="page" id=principal>
+  
+  <div data-role="header" data-position="fixed" data-tap-toggle="false"<
+  <h1>Geolocalización</h1>
+  </div>
+  
+  <div data-role="main" clas="ui-content">
+  <div class="ui-btn" id="posicion">Posición en msg. alerta</div>
+  <div class="ui-btn" id="watch">Posición en movimiehto (Watch)</div>
+  
+  <div>	
+  <div>Latitud:<span id="latitud"></span></div>
+  <div>Longitud:<span id="longituud"></span></div>
+  <div>Altitud:<span id="altitud"></span></div>
+  <div>Accuaracy:<span id="accuaracy"></span></div>
+  <div>Alt Accuaracy:<span id="aaccuaracy"></span></div>
+  <div>Heading:<span id="heading"></span></div>
+  <div>Speed:<span id="spped"></span></div>
+  <div>Timestamp:<span id="timestamp"></span></div>
+  
+  </div>
+ </div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<h4>Juan Daniel Tepepa Mejía </h4>
+	<img src="res/android/mdpi.png" width="56" height="46">
+
+</div>
+</div>
+
+
+</body>
+</html>
